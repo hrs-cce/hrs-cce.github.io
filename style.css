@@ -57,9 +57,10 @@ h1 {
 }
 
 #header {
+	color: #ffffff;
 	background-color: #006544;
 	text-align: center;
-	border: 4px solid #f8f8ff;
+	border: 4px solid #ced54b;
 	border-radius: 15px;
 	border-radius: 15px;
 	padding:10px;
@@ -73,9 +74,10 @@ h1 {
 	
 	
 #footer {
-	background-color: #4682b4;
+	color: #ffffff;
+	background-color: #006544;
 	text-align: center;
-	border: 3px solid #f8f8ff;
+	border: 3px solid #ced54b;
 	font-size:22px;
 	border-radius: 15px;
 	position: relative;
@@ -100,20 +102,19 @@ img {
 
 
 a:link, a:visited {
-    background-color: #4682b4;
+    background-color: #ced54b;
     color: white;
-    padding: 14px 25px;
+    padding: 15px 15px;
     text-align: center;
     display: inline-block;
     border-radius: 25px;
-    text-decoration: underline;
 }
 
 
 a:hover {
     animation: buttoncolorchange 1.1s;
     -webkit-animation: buttoncolorchange 1.1s;
-    background-color: #246992;
+    background-color: #ced54b;
 }
 
 #linkwithtext {

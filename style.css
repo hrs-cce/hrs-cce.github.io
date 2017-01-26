@@ -1,6 +1,6 @@
 body {
-	background-color: #f2eee3;
-	color: 	#f8f8ff;
+	background-color:  #ffffff;
+	color: 	#3f3f3f;
 	font-family: Arial;
 	font-variant: small-caps;
 	font-size: 24px;
@@ -35,14 +35,14 @@ body {
 	
     @-webkit-keyframes buttoncolorchange 
     {
-  	      from { background-color: #4682b4; }
-        	to { background-color: #246992; }
+  	      from { background-color: #ced54b; }
+        	to { background-color: #f2eee3; }
 	}
 	
    @keyframes buttoncolorchange
    {
-        from { background-color: #4682b4; }
-	to { background-color: #246992; }
+        from { background-color: #ced54b; }
+	to { background-color: #f2eee3; }
 	}
 
 

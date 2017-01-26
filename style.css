@@ -80,7 +80,7 @@ h1 {
 	font-size:22px;
 	border-radius: 15px;
 	position: relative;
-	margin-top: -120px; /* negative value of footer height */
+	margin-top: -90px; /* negative value of footer height */
 	height: 90px;
 	clear:both;
 	padding:10px;

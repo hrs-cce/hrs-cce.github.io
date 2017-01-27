@@ -101,15 +101,18 @@ img {
 
 
 a:link, a:visited {
-    background-color: #006544;
+       background-color: #006544;
     color: white;
     padding: 15px 15px;
     text-align: center;
     display: inline-block;
     border-radius: 25px;
-text-decoration: none;
-	border: 1px solid #ced54b;
-	border-radius: 15px;
+    text-decoration: none;
+    border: 1px solid #ced54b;
+    border-radius: 15px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 

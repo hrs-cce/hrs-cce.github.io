@@ -68,7 +68,7 @@ h1 {
 	
 #content {
 	overflow:auto;
-	padding-bottom:90px; /*height of footer*/
+	padding-bottom: 10%; /*height of footer*/
 }
 	
 	
@@ -80,8 +80,8 @@ h1 {
 	font-size:22px;
 	border-radius: 15px;
 	position: relative;
-	margin-top: -90px; /* negative value of footer height */
-	height: 90px;
+	/*margin-top: -90px; /* negative value of footer height */
+	height: 10%;
 	clear:both;
 	padding:10px;
 }	

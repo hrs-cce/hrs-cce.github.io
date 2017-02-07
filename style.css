@@ -112,7 +112,7 @@ a:link, a:visited {
     border-radius: 15px;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    /*transform: translateY(-50%);*/
 }
 
 

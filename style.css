@@ -108,7 +108,8 @@ a:link, a:visited {
     display: inline-block;
     border-radius: 25px;
     text-decoration: none;
-    border: 1px solid #ced54b;
+  /*  border: 1px solid #ced54b; */
+    border: 1.5px solid #8fc4cc;
     border-radius: 15px;
     position: relative;
     top: 50%;
@@ -119,10 +120,13 @@ a:link, a:visited {
 a:hover {
     animation: buttoncolorchange 1.1s;
     -webkit-animation: buttoncolorchange 1.1s;
-    background-color: #8fc4cc;
-	border: 1px solid #ced54b;
+    background-color: #b0d5db;
+	border: 1px solid #8fc4cc;
 	border-radius: 15px;
 }
+
+
+
 
 #linkwithtext {
 border: 4px solid #f8f8ff;

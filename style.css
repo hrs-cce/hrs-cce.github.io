@@ -13,40 +13,6 @@ body {
         
     }
 
-    @keyframes backgroundcolorchange
-    {
-      0%   {background: #0086b3;}
-      25%  {background: #0099cc;}
-      50%  {background: #00ace6;}
-      75%  {background: #00bfff;}
-      100% {background: #4dd2ff;}
-    }
-
-    @-webkit-keyframes backgroundcolorchange /* Safari and Chrome - necessary duplicate */
-    {
-      0%   {background: #0086b3;}
-      25%  {background: #0099cc;}
-      50%  {background: #00ace6;}
-      75%  {background: #00bfff;}
-      100% {background: #4dd2ff;}
-    }
-
-
-	
-    @-webkit-keyframes buttoncolorchange 
-    {
-  	      from { background-color: #006544; }
-        	to { background-color: #8fc4cc; }
-	}
-	
-   @keyframes buttoncolorchange
-   {
-        from { background-color: #006544; }
-	to { background-color: #8fc4cc; }
-	}
-
-
-}
 
 
 h1 {
@@ -121,8 +87,8 @@ a:hover {
     animation: buttoncolorchange 1.1s;
     -webkit-animation: buttoncolorchange 1.1s;
     background-color: #b0d5db;
-	border: 1px solid #8fc4cc;
-	border-radius: 15px;
+	border: 1.5px solid #8fc4cc;
+	border-radius: 25px;
 }
 
 
@@ -142,7 +108,7 @@ border: 4px solid #f8f8ff;
 	
 /*	
 
-green from logo #3d5c43
+green from logo #3d5c43 
 turquoise from logo #8fc4cc
 
 

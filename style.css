@@ -89,7 +89,7 @@ a:link, a:visited {
     border-radius: 15px;
     text-decoration: none;
   /*  border: 1px solid #ced54b; */
-    border: 1.5px solid green;
+    border: 1.5px solid #8fc4cc;
     border-radius: 15px;
     position: relative;
     top: 50%;
@@ -103,6 +103,7 @@ a:hover {
     background-color: #b0d5db;
 	border: 1.5px solid #8fc4cc;
 	border-radius: 15px;
+    color: #355A42;
 }
 
 

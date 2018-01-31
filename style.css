@@ -65,6 +65,19 @@ img {
 	margin: auto;
 }
 
+.accent-line {
+height: 2px;
+width:60%;
+border-width:1px;
+margin:0 auto;
+border: 0;
+background-color: white;
+border-color: #355A42;
+/* border: 0; */
+border-top: 2px solid #355A42;
+border-radius: 0;
+margin-top: 5px;
+
 
 a:link, a:visited {
        background-color: #3d5c43;
@@ -72,7 +85,7 @@ a:link, a:visited {
     padding: 15px 15px;
     text-align: center;
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 15px;
     text-decoration: none;
   /*  border: 1px solid #ced54b; */
     border: 1.5px solid #8fc4cc;
@@ -88,7 +101,7 @@ a:hover {
     -webkit-animation: buttoncolorchange 1.1s;
     background-color: #b0d5db;
 	border: 1.5px solid #8fc4cc;
-	border-radius: 25px;
+	border-radius: 15px;
 }
 
 

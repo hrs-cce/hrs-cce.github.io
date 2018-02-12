@@ -1,0 +1,138 @@
+body {
+	background-color:  #ffffff;
+	color: 	#3f3f3f;
+	font-family: Arial;
+	/*font-variant: small-caps;*/
+	font-size: 24px;
+	text-align: center;
+	
+	/* other yellow color #ced54b */
+	
+       /* animation: backgroundcolorchange 60s infinite; 
+        -webkit-animation: backgroundcolorchange 60s infinite; /* Chrome and Safari */
+        
+    }
+
+
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 75px;
+	letter-spacing: 3px;
+}
+
+#header {
+	color: #ffffff;
+	background-color: #3d5c43;
+	text-align: center;
+	border: 2px solid #8fc4cc;
+	border-radius: 15px;
+	padding:10px;
+	height:120px;
+	}
+	
+#content {
+	overflow:auto;
+	padding-bottom: 10%; /*height of footer*/
+}
+	
+	
+#footer {
+	color: #ffffff;
+	background-color: #3d5c43;
+	text-align: center;
+	border: 1.5px solid #8fc4cc;
+	font-size:22px;
+	border-radius: 15px;
+	position: relative;
+	/*margin-top: -90px; /* negative value of footer height */
+	height: 10%;
+	clear:both;
+	padding:10px;
+}	
+
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.accent-line {
+height: 2px;
+width:60%;
+border-width:1px;
+margin:0 auto;
+border: 0;
+background-color: white;
+border-color: #355A42;
+/* border: 0; */
+border-top: 2px solid #355A42;
+border-radius: 0;
+margin-top: 5px;
+}
+
+
+a:link, a:visited {
+       background-color: #3d5c43;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    text-decoration: none;
+  /*  border: 1px solid #ced54b; */
+    border: 1.5px solid #8fc4cc;
+    border-radius: 15px;
+    position: relative;
+    top: 50%;
+    /*transform: translateY(-50%);*/
+}
+
+
+a:hover {
+    animation: buttoncolorchange 1.1s;
+    -webkit-animation: buttoncolorchange 1.1s;
+    background-color: #b0d5db;
+	border: 1.5px solid #8fc4cc;
+	border-radius: 15px;
+    color: #355A42;
+}
+
+
+
+
+#linkwithtext {
+border: 4px solid #f8f8ff;
+	border-radius: 10px;
+	padding: 15px 5px 5px 15px;
+    background-color: rgba(70, 130, 180, 0.5);
+    font-size: 18px;
+    border-style: double;
+    margin: 0 auto;
+    margin-left:30%;
+    margin-right:30%;
+}
+	
+/*	
+
+green from logo #3d5c43 
+turquoise from logo #8fc4cc
+
+
+
+#4682b4
+
+
+#b0c4de
+
+
+#00bfff
+*/
